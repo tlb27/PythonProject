@@ -1,0 +1,16 @@
+x='天津'
+address="天津市保定区香江大街"
+print(x)
+print(address)
+info='''
+天津市保定区香江大街
+收件人：
+手机号
+'''
+print(info)
+info2="""
+天津市保定区香江大街
+收件人：
+手机号
+"""
+print(info2)

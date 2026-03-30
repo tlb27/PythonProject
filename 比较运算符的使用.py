@@ -1,0 +1,6 @@
+print(98>10)
+print(98<90)
+print(2==3)
+print('2'==3)
+print('2'!=3)
+print(2!=3)
