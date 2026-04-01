@@ -1,0 +1,12 @@
+# try:
+#     open("database.sqlite")
+# except OSError:
+#     raise RuntimeError("unable to handle error")
+
+def func():
+    raise ConnectionError
+
+try:
+    func()
+except ConnectionError as exc:
+    raise RuntimeError('Failed to open database') from exc
